@@ -1,6 +1,6 @@
 .PageWrapper {
   margin: 0 auto;
-  max-width: 1040px;
+  max-width: 1160px;
   padding: 0 25px;
 }
 
@@ -9,4 +9,55 @@
   font-size: 80px;
   font-weight: normal;
   margin: 0;
+}
+
+.ArticleListingHeader{
+  margin:60px 0;
+}
+
+.ArticleCardWrapper{
+  align-items: flex-start;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  padding: 25px;
+
+}
+
+.ArticleCardImage{
+  flex-basis: 30%;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.ArticleCardImage img{
+  height: auto;
+  width: 100%;
+}
+
+.ArticleCardText{
+  flex-basis: 70%;
+  margin:20px;
+}
+
+.ArticleCardTitle{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.ArticleCardDate{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.ArticleCardBlurb{
+  font-size: 16px;
+  margin-bottom:8px;
+}
+
+.ArticleCardLink{
+
 }
