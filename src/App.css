@@ -1,13 +1,9 @@
-.App {
-  color: blue;
-  display: block;
-}
-
-.pagewrapper{
+.PageWrapper {
   margin: 0 auto;
-  max-width:  1160px;
+  max-width: 1040px;
   padding: 0 25px;
 }
+
 
 .HeaderOneStyle {
   font-size: 80px;
