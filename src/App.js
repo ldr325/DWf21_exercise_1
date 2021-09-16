@@ -1,10 +1,25 @@
+import{
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
 import './App.css';
+import ArticlePage from "./containers/ArticlePage";
+import ArticleListing from "./containers/ArticleListing";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">npm start</header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path = "/article">
+          <ArticlePage />
+        </Route>
+        <Route path = "/">
+          <ArticleListing />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
