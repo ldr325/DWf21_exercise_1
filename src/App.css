@@ -28,8 +28,7 @@
 
 .ArticleCardImage{
   flex-basis: 30%;
-  margin: 10px;
-  padding-bottom: 20px;
+  padding-right: 20px;
 }
 
 .ArticleCardImage img{
@@ -39,7 +38,7 @@
 
 .ArticleCardText{
   flex-basis: 70%;
-  margin:20px;
+  padding-left: 10px;
 }
 
 .ArticleCardTitle{
@@ -51,6 +50,7 @@
 .ArticleCardDate{
   font-size: 14px;
   margin-bottom: 8px;
+  padding-left: 10px;
 }
 
 .ArticleCardBlurb{
@@ -58,6 +58,7 @@
   margin-bottom:8px;
 }
 
-.ArticleCardLink{
-
+.ArticleCardLink a {
+  font-size: 16px;
+  font-weight: bold;
 }
