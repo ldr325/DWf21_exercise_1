@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path = "/article">
+        <Route path = "/ArticlePage/:id">
           <ArticlePage />
         </Route>
         <Route path = "/">
